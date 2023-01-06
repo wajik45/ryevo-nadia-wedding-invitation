@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>For You</title>
+</head>
+<body>
+    <audio id="Audio" src="audio/Arms-of-Heaven.mp3" loop></audio>
+    <div class="container">
+        <video class="pidio" src="video/bg-720.mp4" autoplay muted loop></video>
+        <div class="layer">
+            
+            <div class="kotak-awal">
+                <p class="txt-wedding">The Wedding of</p>
+                <h1 class="txt-ryevo-nadia"><span class="txt-ryevo">Ryevo</span> & <span class="txt-nadia">Nadia</span></h1>
+                <p class="txt-hari">Sabtu</p>
+                <p class="txt-tanggal">21/Januari/2023</p>
+                <img class="kembang" src="img/line.png" alt="kembang" width="200px">
+                <p class="txt-yth">Yth</p>
+                <p class="txt-nama">Nama</p>
+                <p class="txt-kata">
+                    Tanpa mengurangi rasa hormat, Kami mengundang Anda untuk hadir di acara pernikahan Kami.
+                </p>
+                <div class="kotak-buka">
+                    <div class="tombol-buka">
+                        <p>Buka Undangan</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-open" viewBox="0 0 16 16">
+                            <path d="M8.47 1.318a1 1 0 0 0-.94 0l-6 3.2A1 1 0 0 0 1 5.4v.817l5.75 3.45L8 8.917l1.25.75L15 6.217V5.4a1 1 0 0 0-.53-.882l-6-3.2ZM15 7.383l-4.778 2.867L15 13.117V7.383Zm-.035 6.88L8 10.082l-6.965 4.18A1 1 0 0 0 2 15h12a1 1 0 0 0 .965-.738ZM1 13.116l4.778-2.867L1 7.383v5.734ZM7.059.435a2 2 0 0 1 1.882 0l6 3.2A2 2 0 0 1 16 5.4V14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5.4a2 2 0 0 1 1.059-1.765l6-3.2Z"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="kotak-undangan">
+                <div class="bar">
+                    <div class="kotak tombol-home">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                            <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z"/>
+                        </svg>
+                        <p>Home</p>
+                    </div>
+                    <div class="kotak tombol-location">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                        </svg>
+                        <p>Location</p>
+                    </div>
+                    <div class="kotak tombol-photo">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-image-fill" viewBox="0 0 16 16">
+                            <path d="M.002 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2V3zm1 9v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12zm5-6.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0z"/>
+                        </svg>
+                        <p>Photo</p>
+                    </div>
+                    <div class="kotak tombol-ucapan">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-left-text-fill" viewBox="0 0 16 16">
+                            <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793V2zm3.5 1a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9zm0 2.5a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9zm0 2.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5z"/>
+                        </svg>
+                        <p>Ucapan</p>
+                    </div>
+                </div>
+            </div>
+            <div class="kotak-location">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.99792140168!2d106.7883985!3d-6.264002099999988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1951c5ba523%3A0x6df1fe4fe922fdea!2sASTON%20Bellevue%20Radio%20Dalam!5e0!3m2!1sid!2sid!4v1672457065898!5m2!1sid!2sid" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p class="close-map">Close</p>
+            </div>
+            <div class="kotak-photo">
+                <div class="photo">
+                    <img src="img/photo/1.jpg" alt="1" class="img-gede">
+                </div>
+                <div class="thumbs">
+                    <img src="img/photo/1.jpg" alt="1" class="alb">
+                    <img src="img/photo/2.jpg" alt="2" class="alb">
+                    <img src="img/photo/3.jpg" alt="3" class="alb">
+                    <img src="img/photo/4.jpg" alt="4" class="alb">
+                    <img src="img/photo/5.jpg" alt="5" class="alb">
+                    <img src="img/photo/6.jpg" alt="6" class="alb">
+                </div>
+                <p class="close-photo">Close</p>
+            </div>
+            <div class="kotak-ucapan">
+                <p class="close-ucapan">Close</p>
+                <div class="kata-ucapan">
+                    <h1 class="h-doa">Kirim doa dan Ucapan</h1>
+                    <p>Tuliskan sesuatu ucapan berupa harapan ataupun doa untuk kedua mempelai.</p>
+                </div>
+                <form name="kirim-ke-google-sheet">
+                    <input id="nama" name="nama" type="text" placeholder="Tuliskan nama">
+                    <textarea id="ucapan" name="ucapan" cols="30" rows="10" placeholder="Tuliskan ucapan atau doa untuk kedua mempelai"></textarea>
+                    <p>Apakah anda akan hadir memenuhi undangan saya?</p>
+                    <div class="radio-satu">                      
+                        <input id="hadir" value="hadir" name="kehadiran" type="radio">
+                        <label for="hadir">Hadir</label>
+                    </div>
+                    <div class="radio-dua">
+                        <input id="tidak-hadir" value="tidak-hadir" name="kehadiran" type="radio">
+                        <label for="tidak-hadir">Tidak Hadir</label>
+                    </div>
+                    <button class="btn" type="submit">Kirim</button>
+                    <div class="kotak-alert"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+# invitation
+// Variable
+const container = document.querySelector('.container'),
+layer = document.querySelector('.layer'),
+    // Kotak Awal
+kotakAwal = document.querySelector('.kotak-awal'),
+        // txt
+txtWedding = document.querySelector('.txt-wedding'),
+txtRyevoNadia = document.querySelector('.txt-ryevo-nadia'),
+txtRyevo = document.querySelector('.txt-ryevo'),
+txtNadia = document.querySelector('.txt-nadia'),
+txtHari = document.querySelector('.txt-hari'),
+txtTanggal = document.querySelector('.txt-tanggal'),
+txtYth = document.querySelector('.txt-yth'),
+txtNama = document.querySelector('.txt-nama'),
+txtKata = document.querySelector('.txt-kata'),
+        // kembang
+kembang = document.querySelector('.kembang'),
+        // tombol
+tombolBuka = document.querySelector('.tombol-buka'),
+    // Kotak Dua
+kotakUndangan = document.querySelector('.kotak-undangan'),
+tombolHome = document.querySelector('.tombol-home'),
+tombolLocation = document.querySelector('.tombol-location'),
+tombolPhoto = document.querySelector('.tombol-photo'),
+tombolUcapan = document.querySelector('.tombol-ucapan'),
+    // Kotak Tiga
+kotakLocation = document.querySelector('.kotak-location'),
+closeMap = document.querySelector('.close-map'),
+    // Kotak Empat
+kotakPhoto = document.querySelector('.kotak-photo'),
+closePhoto = document.querySelector('.close-photo'),
+    // Kotak Lima
+kotakUcapan = document.querySelector('.kotak-ucapan');
+closeUcapan = document.querySelector('.close-ucapan'),
+kotakAlert = document.querySelector('.kotak-alert');
+
+
+// Array
+const txtAwal = [
+    txtWedding,
+    txtRyevoNadia,
+    txtRyevo,
+    txtNadia,
+    txtHari,
+    txtTanggal,
+    txtYth,
+    txtNama,
+    txtKata
+];
+
+// Function
+    //url
+function GetURLParameter(sParam)
+{
+    var sPageURL = window.location.search.substring(1);
+    var sURLVariables = sPageURL.split('&');
+    for (var i = 0; i < sURLVariables.length; i++) 
+    {
+        var sParameterName = sURLVariables[i].split('=');
+        if (sParameterName[0] == sParam) 
+        {
+            return sParameterName[1];
+        }
+    }
+}
+const untuk = GetURLParameter('untuk');
+txtNama.innerHTML = untuk.replace(/%20/g, ' ');
+
+    // audio
+const myAudio = document.querySelector('#Audio');
+function gasAudio() {
+    myAudio.play();
+}
+
+function mKotakAwal() {
+    kotakAwal.classList.toggle('tr-skala-satu');
+    kotakAwal.classList.toggle('rgba-bg-item-tr');
+
+    kembang.classList.toggle('tr-skala-satu');
+    setTimeout( _ => {
+        txtRyevo.classList.toggle('xy-nol');
+        txtNadia.classList.toggle('xy-nol');
+
+        txtAwal.forEach((s) => {
+            s.classList.toggle('rgba-color-putih');
+        });
+        setTimeout( _ => {
+            tombolBuka.classList.toggle('rgba-color-putih');
+            tombolBuka.classList.toggle('tr-skala-satu');
+            tombolBuka.classList.toggle('rgba-bg-item-tr');
+        }, 1500);
+    }, 500);
+}
+
+function mKotakUndangan() {
+    kotakUndangan.classList.toggle('tr-skala-satu');
+    kotakUndangan.classList.toggle('opasiti-satu');
+
+    layer.classList.toggle('rgba-bg-item-tr');
+}
+
+function mKotakLocation() {
+    kotakLocation.classList.toggle('flex');
+    kotakLocation.classList.toggle('index-0');
+
+    layer.classList.toggle('rgba-bg-item-kr');
+}
+
+function mKotakPhoto() {
+    kotakPhoto.classList.toggle('index-0');
+    kotakPhoto.classList.toggle('opasiti-satu');
+
+    layer.classList.toggle('rgba-bg-item-kr');
+}
+
+function mKotakUcapan() {
+    kotakUcapan.classList.toggle('index-0');
+    kotakUcapan.classList.toggle('opasiti-satu');
+    kotakUcapan.classList.toggle('tr-skala-satu');
+
+    layer.classList.toggle('rgba-bg-item-kr');
+}
+
+window.addEventListener('load', _ => {
+    setTimeout( _ => {
+        container.style.opacity = '1';
+
+        setTimeout( _ => {
+            mKotakAwal();
+    
+            tombolBuka.onclick = _ => {
+                gasAudio();
+                mKotakAwal();
+                mKotakUndangan();
+    
+                tombolHome.onclick = _ => {
+                    mKotakUndangan();
+                    mKotakAwal();
+                }
+                tombolLocation.onclick = _ => {
+                    mKotakUndangan();
+    
+                    setTimeout( _ => {
+                        mKotakLocation();
+                        closeMap.onclick = _ => {
+                            mKotakUndangan();
+                            mKotakLocation();
+                        }
+                    }, 700);
+                }
+                tombolPhoto.onclick = _ => {
+                    mKotakUndangan();
+
+                    setTimeout( _ => {
+                        mKotakPhoto();
+                        closePhoto.onclick = _ => {
+                            mKotakUndangan();
+                            mKotakPhoto();
+                        }
+                    }, 700);
+                }
+                tombolUcapan.onclick = _ => {
+                    mKotakUndangan();
+
+                    setTimeout( _ => {
+                        mKotakUcapan();
+                        setTimeout( _ => {
+                          closeUcapan.classList.toggle('opasiti-satu');
+                        }, 1000);
+                        closeUcapan.onclick = _ => {
+                            mKotakUndangan();
+                            mKotakUcapan();
+                            closeUcapan.classList.toggle('opasiti-satu');
+                        }
+                    }, 700);
+                }
+            }
+        }, 1000);
+    }, 1000);
+});
+
+// gallery
+const imgGede = document.querySelector('.img-gede');
+const imgThumbs = document.querySelectorAll('.alb');
+
+container.addEventListener('click', (e) => {
+    if (e.target.className == 'alb') {
+        imgGede.src = e.target.src;
+
+        imgGede.classList.add('udin');
+		setTimeout( _ => {
+			imgGede.classList.remove('udin');
+		}, 1000);
+
+        imgThumbs.forEach((pilih) => {
+			if (pilih.classList.contains('aktip')) {
+				pilih.classList.remove('aktip');
+			}
+		});
+		e.target.classList.add('aktip');
+    }
+});
+
+// form
+const inputNama = document.querySelector('#nama'),
+ucapan = document.querySelector('#ucapan');
+hadir = document.querySelector('#hadir'),
+tidakHadir = document.querySelector('#tidak-hadir'),
+btn = document.querySelector('.btn'),
+scriptURL = 'https://script.google.com/macros/s/AKfycbw38WXmGC7xpyM8Ybomy_42-pcyo_n5kW1gIvjmdsuQmhCYTeLnpH7BVIxUlv8V2GOhhA/exec',
+form = document.forms['kirim-ke-google-sheet'];
+        
+form.addEventListener('submit', e => {
+    e.preventDefault();
+
+    if (inputNama.value.length < 3 || ucapan.value.length < 3) {
+        kotakAlert.style.backgroundColor = '#e3c3c3';
+        kotakAlert.style.color = '#800f0f';
+        kotakAlert.innerHTML = 'Masukkan minimal 3 karakter.';
+        kotakAlert.style.display = 'flex';
+    } else if (btn.textContent == 'terkirim') {
+	      kotakAlert.style.backgroundColor = '#b4d9c2';
+        kotakAlert.style.color = '#095c29';
+        kotakAlert.innerHTML = 'Anda sudah mengirimkan pesan';
+        kotakAlert.style.display = 'flex';
+        form.reset();
+    } else {
+        btn.innerHTML = 'mengirim';
+        kotakAlert.style.display = 'none';
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                btn.innerHTML = 'terkirim';
+                kotakAlert.style.backgroundColor = '#b4d9c2';
+                kotakAlert.style.color = '#095c29';
+                kotakAlert.innerHTML = 'Terima kasih, pesan anda sudah kami terima.';
+                kotakAlert.style.display = 'flex';
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message));
+    }
+});
+:root {
+    font-size: 18px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(img/bg1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    display: flex;
+    opacity: 0;
+    transition: 1.5s opacity;
+}
+video {
+    min-width: 100%;
+    min-height: 100%;
+    opacity: .3;
+    position: absolute;
+}
+.layer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    transition: 1s;
+}
+/* Netral */
+.txt-yth, .txt-nama, .txt-kata {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.txt-wedding, .txt-ryevo-nadia, .txt-hari, .txt-tanggal, .txt-yth, .txt-nama, .txt-kata
+{
+    transition: 1s;
+    color: rgba(0, 0, 0, 0);
+}
+.kembang {
+    transition: 1s;
+    transform: scale(0) rotate(360deg);
+}
+/* txt */
+.txt-ryevo, .txt-nadia {
+    display: inline-block;
+    transition: 1s;
+}
+.txt-ryevo {
+    transform: translateY(-100px);
+}
+.txt-nadia {
+    transform: translateY(100px);
+}
+/* Kotak Satu */
+.kotak-awal {
+    max-width: 480px;
+    min-height: 400px;
+    font-family: 'Charm', cursive;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 30px;
+    border-radius: 20% 0 20% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    position: absolute;
+    transform: scale(0) rotate(-160deg);
+    transition: 1s;
+}
+.kotak-buka {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+}
+.tombol-buka {
+    width: 60px;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-size: .7rem;
+    transform: scale(0);
+    transition: 1s;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 5px;
+    border-radius: 10px 0 0 0;
+    cursor: pointer;
+}
+.tombol-buka svg {
+    width: 25px;
+    height: 25px;
+    padding: 5px 0;
+    transition: .2s color;
+    transition: 1s background-color;
+}
+.tombol-buka svg:hover {
+    color: #999;
+}
+/* Kotak Dua */
+.kotak-undangan {
+    height: calc(100vh - 10px);
+    width: calc(100vh / 1.777777777777 - 10px);
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: .8rem;
+    background-image: url(img/bg2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(0) rotate(160deg);
+    opacity: 0;
+    transition: 1s;
+}
+.bar {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+.kotak {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+.kotak:hover {
+    color: rgb(239, 204, 11);
+}
+/* Kotak Tiga */
+.kotak-location {
+    height: calc(100vh - 10px);
+    width: calc(100vh / 1.777777777777 - 10px);
+    position: absolute;
+    transition: 1s;
+    z-index: -99;
+    display: none;
+    font-family:'Times New Roman', Times, serif;
+    display: none;
+    justify-content: flex-end;
+    align-items: center;
+}
+iframe {
+    height: 50%;
+    width: 100%;
+    border: 2px solid #eaeaea;
+    border-radius: 10px 0 10px 10px;
+    position: absolute;
+}
+.close-map {
+    position: absolute;
+    cursor: pointer;
+    right: 0;
+    color: #000;
+    background-color: #eaeaea;
+    padding: 5px 10px;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 100%;
+}
+/* Kotak Empat */
+.kotak-photo {
+    height: calc(100vh - 10px);
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: -99;
+    opacity: 0;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family:'Times New Roman', Times, serif;
+}
+.photo {
+    width: 100%;
+}
+.photo img {
+    width: 100%;
+    border: 4px solid #fff;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+.thumbs {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.alb {
+    width: 30%;
+    margin: 1% 0;
+    border: 3px solid #fff;
+}
+.alb:hover {
+    opacity: .7;
+}
+.close-photo {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 50px;
+    color: #000;
+    margin-bottom: 160%;
+}
+/* Kotak Ucapan */
+.kotak-ucapan {
+    height: calc(100vh - 10px);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0) translateX(1000px);
+    opacity: 0;
+    z-index: -99;
+    transition: 1s transform, opacity;
+}
+.kotak-ucapan form {
+    max-width: 90%;
+    min-height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(15, 14, 16);
+    position: relative;
+}
+.kata-ucapan {
+    max-width: 90%;
+    min-height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.kotak-ucapan input {
+    box-sizing: border-box;
+}
+#nama {
+    width: 100%;
+    height: 30px;
+    border-radius: 50px;
+    border: 1px solid #777;
+    padding: 5px;
+}
+#ucapan {
+    border-radius: 10px;
+    border: 1px solid #777;
+    padding: 5px;
+}
+.btn {
+    width: 100%;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #fff;
+    cursor: pointer;
+    border: none;
+    background-color: #d49217;
+    color: #fff;
+}
+#hadir, #tidak-hadir {
+    accent-color: #333;
+}
+.btn:hover, .btn:active {
+    background-color: #bf871f;
+}
+.h-doa {
+    font-family: 'Charm', cursive;
+}
+.close-ucapan {
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 50px;
+    color: #000;
+    font-family:'Times New Roman', Times, serif;
+    transition: 1s;
+    opacity: 0;
+}
+.kotak-alert {
+  position: absolute;
+  padding: 10px;
+  align-self: center;
+  top: -40px;
+  text-align: center;
+  display: none;
+  font-size: .7rem;
+}
+/* JS */
+.xy-nol {
+    transform: translate(0);
+}
+.tr-skala-satu {
+    transform: scale(1);
+}
+.rgba-color-putih {
+    color: rgba(255, 255, 255, 1);
+}
+.rgba-bg-item-tr {
+    background-color: rgba(0, 0, 0, .5);
+}
+.rgba-bg-item-kr {
+    background-color: rgba(0, 0, 0, .8);
+}
+.opasiti-satu {
+    opacity: 1;
+}
+.rotasi-360 {
+    transform: rotate(360deg);
+}
+.index-0 {
+    z-index: 0;
+}
+.flex {
+    display: flex;
+}
+.aktip {
+    border: 3px solid rgb(33, 212, 236);
+    opacity: .5;
+}
+@keyframes udin {
+	to {
+		opacity: 1;
+	}
+}
+.udin {
+    opacity: 0;
+    animation: udin 1.5s forwards;
+}
